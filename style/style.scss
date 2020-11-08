@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Goldman", cursive;
+  background-color: cadetblue;
+
+  header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h1 {
+      margin-top: 2rem;
+      font-family: "Oswald", sans-serif;
+    }
+
+    div {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      margin-top: 1rem;
+      width: 100%;
+
+      hr {
+        width: 90%;
+      }
+
+      nav {
+        margin-top: 0.8rem;
+        width: 80%;
+
+        ul {
+          width: 100%;
+          display: flex;
+          justify-content: space-between;
+
+          li {
+            list-style: none;
+
+            a {
+              font-size: 1.2rem;
+              text-decoration: none;
+              color: black;
+              transition: 0.4s;
+
+              &:hover {
+                border-bottom: 1px solid black;
+                opacity: 0.6;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    img {
+      margin-top: 2rem;
+      width: 90%;
+      height: 29rem;
+    }
+  }
+
+  main {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .main-div {
+      width: 90%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+
+      div {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 32%;
+
+        img {
+          margin-top: 2rem;
+          margin-bottom: 1rem;
+          height: 22rem;
+        }
+      }
+    }
+
+    .second-div {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      margin-top: 1rem;
+      width: 100%;
+      margin-bottom: 10rem;
+
+      hr {
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+        width: 90%;
+      }
+
+      .part {
+        display: flex;
+        width: 80%;
+        justify-content: space-between;
+
+        div {
+          display: flex;
+          justify-content: space-between;
+          width: 15%;
+
+          a {
+            color: black;
+
+            &:hover {
+                opacity: 0.7;
+            }
+          }
+
+          .policy {
+              margin-left: 3rem;
+          }
+        }
+      }
+    }
+  }
+}
